@@ -1,6 +1,6 @@
 # Build and deploy a Dataverse solution
 
-The [Common Data Model for Nonprofits](../CommonDataModelforNonprofits/README.md), [Fundraising](../Fundraising/README.md), [Grant Management](../GrantManagement/README.md), [Outcome Management](../OutcomeManagement/README.md), and [Volunteer Management](../VolunteerManagement/README.md) are solutions built on Dataverse. The process to build and deploy is the same for each of these solutions. 
+The [Common Data Model for Nonprofits](../CommonDataModelforNonprofits/README.md), [Fundraising](../Fundraising/README.md), [Grant Management](../GrantManagement/README.md), [CUE Management Portal](../CUEManagementPortal/README.md), [Outcome Management](../OutcomeManagement/README.md), and [Volunteer Management](../VolunteerManagement/README.md) are solutions built on Dataverse. The process to build and deploy is the same for each of these solutions. 
 
 This repository contains multiple Dataverse solutions. Always ensure you are in the correct solution folder.
 Follow the steps below to **build and deploy the solution** into a Power Platform environment.
@@ -29,7 +29,7 @@ Before building or deploying a Dataverse solution, ensure you have the following
 - A **valid authentication method** for `pac auth create` (e.g., username/password, client ID & secret, certificate-based auth).
 
 ### 🏛 Required Data Model
-Before installing Fundraising, Outcome Management, Grant Management, or any other nonprofit solutions based on Dataverse, ensure that the Common Data Model (CDM) for Nonprofits is installed first.
+Before installing Fundraising, Outcome Management, CUE Management Portal, or any other nonprofit solutions based on Dataverse, ensure that the Common Data Model (CDM) for Nonprofits is installed first.
 
 This ensures compatibility and proper data structure alignment for all dependent solutions.
 
